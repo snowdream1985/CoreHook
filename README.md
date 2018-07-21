@@ -50,7 +50,7 @@ Inspired and based on the great [EasyHook](https://github.com/EasyHook/EasyHook)
 
 First, set the  environment variables `CORE_LIBRARIES` and `CORE_ROOT` to the installation folder of your desired dotnet runtime. For example, the default installation folder for `.NET Core 2.1` is at `C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.1.0`. So you set both `CORE_LIBRARIES` and `CORE_ROOT` to point to that folder. 
 
-Then open the `CoreHook` solution `(.sln file)` in Visual Studio and you can build examples, either `CoreHook.FileMonitor` or `CoreHook.UWP.FileMonitor`.
+Then open the `CoreHook` solution `(.sln file)` in Visual Studio and you can build the examples, either `CoreHook.FileMonitor` or `CoreHook.UWP.FileMonitor`.
 
 Finally, build or download the binary releases (in ZIP files) from [CoreHook.Hooking](https://github.com/unknownv2/CoreHook.Hooking) and [CoreHook.Host](https://github.com/unknownv2/CoreHook.Host). Place the `CoreRunDLL32.dll (X86, ARM)` and/or `CoreRunDLL64.dll (X64, ARM64)` binaries in the output directory of your program. Then, place the `corehook32.dll (X86, ARM)` and/or `corehook64.dll (X64, ARM64)` binaries in the same output directory. These are all of the required files for using the examples above. 
 
